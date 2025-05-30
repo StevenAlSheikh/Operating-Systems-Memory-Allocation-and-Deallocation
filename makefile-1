@@ -1,0 +1,20 @@
+# Course: CS 480
+# Professor Guy Leonard
+# Year: 2024
+# Programming Assignment #3 
+# Group members:
+# Name: Steven Al-Sheikh
+# RedID: 826493311
+#  Edoras account: cssc4457 <- account used
+# Name: Moe Jawadi
+# RedID: 130102437
+# Edoras account: cssc4444
+# Name of File: makefile
+
+
+sim: main.cpp
+	g++ -std=c++11 -o sim sim.cpp main.cpp
+	./sim
+
+clean:
+	rm -f sim
